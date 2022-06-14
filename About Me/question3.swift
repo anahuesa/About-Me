@@ -31,7 +31,7 @@ class question3: UIViewController {
         A.backgroundColor = nil
         B.backgroundColor = nil
         D.backgroundColor = nil
-        message.text = "Correct! This is a mimic fly. Although it's hard to see in these pictures, bees have four wings, whereas flies and wasps only have two. Bees can come in all shapes and colors, but many species try to imitate them to protect themselves."
+        message.text = "Correct! This is a mimic fly. It may be hard to see in these pictures, but bees have four wings, whereas flies and wasps only have two. Bees can come in all shapes and colors, but many species try to imitate them to protect themselves."
     }
     @IBAction func D(_ sender: UIButton) {
         D.backgroundColor = UIColor.red

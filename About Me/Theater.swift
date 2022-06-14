@@ -43,6 +43,7 @@ class Theater: UIViewController {
         player.prepareToPlay()
         player.play()
     }
+    
     @objc func updateSlider() {
         if player == nil {
             slider.value = 0
